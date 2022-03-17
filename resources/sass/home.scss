@@ -1,0 +1,32 @@
+//
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+ul{
+    padding: 10px;
+    list-style-type: none;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+
+    width: 250px;
+    height: 300px;
+}
